@@ -17,13 +17,13 @@ fromId = list(map(int, input().split()))
 toId = list(map(int, input().split()))
 
 for i in range(m):
-    fid = fromId[i]
-    tid = toId[i]
-    if bottles[fid] + bottles[tid] > capacilities[tid]:
-        bottles[fid] = bottles[fid] - (capacilities[tid] - bottles[tid])
-        bottles[tid] = capacilities[tid]
+    f = fromId[i]
+    t = toId[i]
+    if bottles[f] + bottles[t] > capacilities[t]:
+        bottles[f] = bottles[f] - (capacilities[t] - bottles[t])
+        bottles[t] = capacilities[t]
     else :
-        bottles[tid] = bottles[fid] + bottles[tid]
-        bottles[fid] = 0
+        bottles[t] = bottles[f] + bottles[t]
+        bottles[f] = 0
 
 print(' '.join(str(i) for i in bottles))
