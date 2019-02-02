@@ -1,0 +1,11 @@
+4
+fishing  gardening  swimming  fishing
+hunting  fishing  fishing  biting
+
+4
+variety  diversity  loquacity  courtesy
+talking  speaking  discussion  meeting
+
+4
+snakes  programming  cobra  monty
+python  python  anaconda  python
