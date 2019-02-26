@@ -23,14 +23,11 @@ def bfs(x, y):
         for i in range(4):
             nx = fx + dx[i]
             ny = fy + dy[i]
-            if nx >= 0 and nx < n and \
-                ny >= 0 and ny < n and \
-                check[nx][ny] == 0 and MAP[nx][ny] == 1:
+            if (nx >= 0 and nx < n) and (ny >= 0 and ny < n) and check[nx][ny] == 0 and MAP[nx][ny] == 1:
                 q.appendleft((nx, ny))
                 check[nx][ny] = 1
                 res += 1
-
-    return str(res)
+    return res
         
 res = []
 cnt = 0
@@ -42,4 +39,5 @@ for i in range(n):
 res.sort()
 
 print(cnt)
-print('\n'.join(res))
+for i in res:
+    print(i)
