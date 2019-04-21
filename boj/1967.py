@@ -8,6 +8,7 @@ dist = [-1 for i in range(n+1)]
 for i in range(1, n):
     parent, child, value = map(int, sys.stdin.readline().split())
     a[parent].append((child, value))
+    a[child].append((parent, value))
 
 def BFS(num):
     dist = [-1 for i in range(n+1)]
@@ -35,7 +36,5 @@ def BFS(num):
     return (resNode, resDist)
 
 resNode, resDist = BFS(1)
-print(resNode, resDist)
 resNode, resDist = BFS(resNode)
-print(resNode, resDist)
 print(resDist)
