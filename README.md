@@ -34,6 +34,7 @@ for i in A:
 여기서 i는 iterator가 되겠고 A는 Iterable Object 입니다.
 
 iterator랑 iterable에 대해서 모르신다면! 밑의 링크를 참조하세요
+
 [Python Docs-Glossary](https://docs.python.org/3/glossary.html#term-iterable) / [Python Docs-Functional Programming HOWTO](https://docs.python.org/3/howto/functional.html#functional-howto-iterators)
 
 A는 문자열, 배열, 튜플 등 다 사용 가능합니다.
@@ -71,6 +72,7 @@ for i,v in enumerate(A):
 # 4 e
 ```
 [enumerate()](https://docs.python.org/3/library/functions.html#enumerate)는 python built-in 함수로 enumerate object를 반환해준다고 합니다.
+
 index와 value를 편하게 사용할 수 있어 종종 사용하곤 합니다.
 
 ---
