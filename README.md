@@ -88,5 +88,10 @@ input() 보다는 sys.stdin.readline()을 사용하자
 log
 pow == **
 lambda
+combination (조합)
+permutaion (순열)
 
 ### ● Collections
+
+### ● functools
+- cmp_to_key
