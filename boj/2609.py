@@ -1,5 +1,5 @@
 import sys
-input = sys.stdin.readline()
+input = sys.stdin.readline
 
 def gcd(a, b):
     while b != 0:
@@ -8,7 +8,7 @@ def gcd(a, b):
         b = r
     return a
 
-a, b = map(int, input.split()) 
-g = gcd(a, b)
+A, B = map(int, input().split())
+g = gcd(A, B)
 print(g)
-print(a * b // g)
+print(A * B // g)

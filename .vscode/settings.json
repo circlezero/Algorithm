@@ -1,4 +1,4 @@
 {
-    "python.jediEnabled": false,
-    "python.linting.pylintEnabled": true
+  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": false
 }

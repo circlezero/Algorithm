@@ -10,7 +10,7 @@ def gcd(a, b):
 
 t = int(input())
 for i in range(t):
-    a, b = map(int, input().split())
-    g = gcd(a, b)
-    l = a * b // g
+    A, B = map(int, input().split())
+    g = gcd(A, B)
+    l = A * B // g
     print(l)
