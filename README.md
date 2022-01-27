@@ -1,15 +1,16 @@
 # 알고리즘 공부
 
 ## 푸는 알고리즘 사이트
-1. [BOJ](https://www.acmicpc.net/)
+1. [Programmers](https://programmers.co.kr/)
 2. [Codility](https://app.codility.com/programmers/)
-3. [Programmers](https://programmers.co.kr/)
-4. [Algospot](https://algospot.com/)
+3. [LeetCode](https://leetcode.com/)
 
 ---
 
-## 하루 45분 공부
+## 공부 내역
 
-### 1. BOJ 1000문제 풀기 (진행중)
-### 2. 탑코더 알고리즘 트레이닝[책] (진행중)
-### 3. 프로그래머스 코딩테스트 연습의 모든 문제 풀기 (진행중)
+### 1. 프로그래머스 level3 까지 전부 풀기 (1/3)
+- 한시간 안에 풀지 못하는 문제는 기록해뒀다가 다시 풀기
+### 2. Codility Lesson 모두 풀어보기
+### 3. 탑코더 알고리즘 트레이닝[책]
+### 4. 리트코드 알고리즘 공부 (1, 2 다 풀고 생각해보기)
